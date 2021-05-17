@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class = "scoreboard">
+            <div id="leftscore" class="score">
+                <span id = "textleft"></span>
+            </div>
+            <div id="rightscore" class="score">
+                <span id = "textright"></span>
+            </div>
+        </div>
+        <h2>Tic-Tac-Toe (Player vs. Computer)</h2>
+        <br>
+        <h3>By: Joshua Bougadis</h3>
+        <br>
+        <div class="play-area">
+            <div id="block_0" class="block"></div>
+            <div id="block_1" class="block"></div>
+            <div id="block_2" class="block"></div>
+            <div id="block_3" class="block"></div>
+            <div id="block_4" class="block"></div>
+            <div id="block_5" class="block"></div>
+            <div id="block_6" class="block"></div>
+            <div id="block_7" class="block"></div>
+            <div id="block_8" class="block"></div>
+        </div>
+        <h2 id="winner"></h2>
+        <button onclick="reset_board()">RESET</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
